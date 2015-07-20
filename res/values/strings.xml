@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="snooze">闹铃再响</string>
+    <string name="cancel">取消闹铃</string>
+    <string name="trigger_label">闹铃提示</string>
+
+</resources>

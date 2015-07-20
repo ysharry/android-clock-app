@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/clock"
+    	/>
+    <TextView
+        android:id="@+id/alarm_hint"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="25sp"
+        android:text="闹钟设置成功！"/>
+    
+    <Button
+        android:id="@+id/snooze"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snooze"/>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"/>
+
+</LinearLayout>
